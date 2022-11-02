@@ -1,4 +1,5 @@
-(() => {
+if (typeof window !== 'undefined') {
+  (() => {
     let playing = true,
       activeHole = 1;
 
@@ -20,3 +21,6 @@
 
     next();
   })();
+} else {
+  console.log('You are on the server')
+}
