@@ -9,7 +9,9 @@
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
-      "WithStatement"
-    ]
+      "WithStatement"           
+    ],
+    "no-return-assign": "off",
+    "no-unused-vars": "off"
   }
 }
