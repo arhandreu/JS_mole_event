@@ -1,5 +1,6 @@
 dist
 doc
+yarn.lock
 
 # Logs
 logs
